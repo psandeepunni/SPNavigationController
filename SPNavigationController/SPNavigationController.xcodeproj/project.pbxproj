@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C4F0B6190389E700CCABAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C4F0B5190389E700CCABAE /* Foundation.framework */; };
+		00C4F0B8190389E700CCABAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C4F0B7190389E700CCABAE /* CoreGraphics.framework */; };
+		00C4F0BA190389E700CCABAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C4F0B9190389E700CCABAE /* UIKit.framework */; };
+		00C4F0C0190389E700CCABAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00C4F0BE190389E700CCABAE /* InfoPlist.strings */; };
+		00C4F0C2190389E700CCABAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C4F0C1190389E700CCABAE /* main.m */; };
+		00C4F0C6190389E700CCABAE /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C4F0C5190389E700CCABAE /* SPAppDelegate.m */; };
+		00C4F0C8190389E700CCABAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C4F0C7190389E700CCABAE /* Images.xcassets */; };
+		00C4F0CF190389E700CCABAE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C4F0CE190389E700CCABAE /* XCTest.framework */; };
+		00C4F0D0190389E700CCABAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C4F0B5190389E700CCABAE /* Foundation.framework */; };
+		00C4F0D1190389E700CCABAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C4F0B9190389E700CCABAE /* UIKit.framework */; };
+		00C4F0D9190389E700CCABAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00C4F0D7190389E700CCABAE /* InfoPlist.strings */; };
+		00C4F0DB190389E700CCABAE /* SPNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C4F0DA190389E700CCABAE /* SPNavigationControllerTests.m */; };
+		00C4F0EE19038AA600CCABAE /* SPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C4F0E819038AA600CCABAE /* SPNavigationController.m */; };
+		00C4F0EF19038AA600CCABAE /* SPNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C4F0E919038AA600CCABAE /* SPNavigationController.xib */; };
+		00C4F0F019038AA600CCABAE /* SPNavigationController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C4F0EA19038AA600CCABAE /* SPNavigationController~ipad.xib */; };
+		00C4F0F119038AA600CCABAE /* UIViewController+SPUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C4F0ED19038AA600CCABAE /* UIViewController+SPUIViewController.m */; };
+		00C4F0F419038D7800CCABAE /* SPChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C4F0F319038D7800CCABAE /* SPChildViewController.m */; };
+		00C4F0F819038E3F00CCABAE /* SPInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C4F0F619038E3F00CCABAE /* SPInitialViewController.m */; };
+		00C4F0F919038E3F00CCABAE /* SPInitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C4F0F719038E3F00CCABAE /* SPInitialViewController.xib */; };
+		00C4F0FB1903910C00CCABAE /* SPChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C4F0FA1903910C00CCABAE /* SPChildViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00C4F0D2190389E700CCABAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C4F0AA190389E700CCABAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00C4F0B1190389E700CCABAE;
+			remoteInfo = SPNavigationController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C4F0B2190389E700CCABAE /* SPNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C4F0B5190389E700CCABAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00C4F0B7190389E700CCABAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00C4F0B9190389E700CCABAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00C4F0BD190389E700CCABAE /* SPNavigationController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SPNavigationController-Info.plist"; sourceTree = "<group>"; };
+		00C4F0BF190389E700CCABAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00C4F0C1190389E700CCABAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00C4F0C3190389E700CCABAE /* SPNavigationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPNavigationController-Prefix.pch"; sourceTree = "<group>"; };
+		00C4F0C4190389E700CCABAE /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		00C4F0C5190389E700CCABAE /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		00C4F0C7190389E700CCABAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00C4F0CD190389E700CCABAE /* SPNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C4F0CE190389E700CCABAE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		00C4F0D6190389E700CCABAE /* SPNavigationControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SPNavigationControllerTests-Info.plist"; sourceTree = "<group>"; };
+		00C4F0D8190389E700CCABAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00C4F0DA190389E700CCABAE /* SPNavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPNavigationControllerTests.m; sourceTree = "<group>"; };
+		00C4F0E719038AA600CCABAE /* SPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNavigationController.h; sourceTree = "<group>"; };
+		00C4F0E819038AA600CCABAE /* SPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPNavigationController.m; sourceTree = "<group>"; };
+		00C4F0E919038AA600CCABAE /* SPNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPNavigationController.xib; sourceTree = "<group>"; };
+		00C4F0EA19038AA600CCABAE /* SPNavigationController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SPNavigationController~ipad.xib"; sourceTree = "<group>"; };
+		00C4F0EB19038AA600CCABAE /* SPNavigationUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPNavigationUIKit.h; sourceTree = "<group>"; };
+		00C4F0EC19038AA600CCABAE /* UIViewController+SPUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SPUIViewController.h"; sourceTree = "<group>"; };
+		00C4F0ED19038AA600CCABAE /* UIViewController+SPUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SPUIViewController.m"; sourceTree = "<group>"; };
+		00C4F0F219038D7800CCABAE /* SPChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPChildViewController.h; sourceTree = "<group>"; };
+		00C4F0F319038D7800CCABAE /* SPChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPChildViewController.m; sourceTree = "<group>"; };
+		00C4F0F519038E3F00CCABAE /* SPInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPInitialViewController.h; path = SPNavigationController/SPInitialViewController.h; sourceTree = SOURCE_ROOT; };
+		00C4F0F619038E3F00CCABAE /* SPInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPInitialViewController.m; path = SPNavigationController/SPInitialViewController.m; sourceTree = SOURCE_ROOT; };
+		00C4F0F719038E3F00CCABAE /* SPInitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SPInitialViewController.xib; path = SPNavigationController/SPInitialViewController.xib; sourceTree = SOURCE_ROOT; };
+		00C4F0FA1903910C00CCABAE /* SPChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SPChildViewController.xib; path = SPNavigationController/SPChildViewController.xib; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00C4F0AF190389E700CCABAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C4F0B8190389E700CCABAE /* CoreGraphics.framework in Frameworks */,
+				00C4F0BA190389E700CCABAE /* UIKit.framework in Frameworks */,
+				00C4F0B6190389E700CCABAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C4F0CA190389E700CCABAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C4F0CF190389E700CCABAE /* XCTest.framework in Frameworks */,
+				00C4F0D1190389E700CCABAE /* UIKit.framework in Frameworks */,
+				00C4F0D0190389E700CCABAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C4F0A9190389E700CCABAE = {
+			isa = PBXGroup;
+			children = (
+				00C4F0BB190389E700CCABAE /* SPNavigationController */,
+				00C4F0D4190389E700CCABAE /* SPNavigationControllerTests */,
+				00C4F0B4190389E700CCABAE /* Frameworks */,
+				00C4F0B3190389E700CCABAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00C4F0B3190389E700CCABAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C4F0B2190389E700CCABAE /* SPNavigationController.app */,
+				00C4F0CD190389E700CCABAE /* SPNavigationControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C4F0B4190389E700CCABAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00C4F0B5190389E700CCABAE /* Foundation.framework */,
+				00C4F0B7190389E700CCABAE /* CoreGraphics.framework */,
+				00C4F0B9190389E700CCABAE /* UIKit.framework */,
+				00C4F0CE190389E700CCABAE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00C4F0BB190389E700CCABAE /* SPNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				00C4F0E619038AA600CCABAE /* NavigationController */,
+				00C4F0C4190389E700CCABAE /* SPAppDelegate.h */,
+				00C4F0C5190389E700CCABAE /* SPAppDelegate.m */,
+				00C4F0F519038E3F00CCABAE /* SPInitialViewController.h */,
+				00C4F0F619038E3F00CCABAE /* SPInitialViewController.m */,
+				00C4F0F719038E3F00CCABAE /* SPInitialViewController.xib */,
+				00C4F0FA1903910C00CCABAE /* SPChildViewController.xib */,
+				00C4F0F219038D7800CCABAE /* SPChildViewController.h */,
+				00C4F0F319038D7800CCABAE /* SPChildViewController.m */,
+				00C4F0C7190389E700CCABAE /* Images.xcassets */,
+				00C4F0BC190389E700CCABAE /* Supporting Files */,
+			);
+			path = SPNavigationController;
+			sourceTree = "<group>";
+		};
+		00C4F0BC190389E700CCABAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00C4F0BD190389E700CCABAE /* SPNavigationController-Info.plist */,
+				00C4F0BE190389E700CCABAE /* InfoPlist.strings */,
+				00C4F0C1190389E700CCABAE /* main.m */,
+				00C4F0C3190389E700CCABAE /* SPNavigationController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00C4F0D4190389E700CCABAE /* SPNavigationControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				00C4F0DA190389E700CCABAE /* SPNavigationControllerTests.m */,
+				00C4F0D5190389E700CCABAE /* Supporting Files */,
+			);
+			path = SPNavigationControllerTests;
+			sourceTree = "<group>";
+		};
+		00C4F0D5190389E700CCABAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00C4F0D6190389E700CCABAE /* SPNavigationControllerTests-Info.plist */,
+				00C4F0D7190389E700CCABAE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00C4F0E619038AA600CCABAE /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				00C4F0E719038AA600CCABAE /* SPNavigationController.h */,
+				00C4F0E819038AA600CCABAE /* SPNavigationController.m */,
+				00C4F0E919038AA600CCABAE /* SPNavigationController.xib */,
+				00C4F0EA19038AA600CCABAE /* SPNavigationController~ipad.xib */,
+				00C4F0EB19038AA600CCABAE /* SPNavigationUIKit.h */,
+				00C4F0EC19038AA600CCABAE /* UIViewController+SPUIViewController.h */,
+				00C4F0ED19038AA600CCABAE /* UIViewController+SPUIViewController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00C4F0B1190389E700CCABAE /* SPNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C4F0DE190389E700CCABAE /* Build configuration list for PBXNativeTarget "SPNavigationController" */;
+			buildPhases = (
+				00C4F0AE190389E700CCABAE /* Sources */,
+				00C4F0AF190389E700CCABAE /* Frameworks */,
+				00C4F0B0190389E700CCABAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPNavigationController;
+			productName = SPNavigationController;
+			productReference = 00C4F0B2190389E700CCABAE /* SPNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00C4F0CC190389E700CCABAE /* SPNavigationControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C4F0E1190389E700CCABAE /* Build configuration list for PBXNativeTarget "SPNavigationControllerTests" */;
+			buildPhases = (
+				00C4F0C9190389E700CCABAE /* Sources */,
+				00C4F0CA190389E700CCABAE /* Frameworks */,
+				00C4F0CB190389E700CCABAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00C4F0D3190389E700CCABAE /* PBXTargetDependency */,
+			);
+			name = SPNavigationControllerTests;
+			productName = SPNavigationControllerTests;
+			productReference = 00C4F0CD190389E700CCABAE /* SPNavigationControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00C4F0AA190389E700CCABAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = psandeepu;
+				TargetAttributes = {
+					00C4F0CC190389E700CCABAE = {
+						TestTargetID = 00C4F0B1190389E700CCABAE;
+					};
+				};
+			};
+			buildConfigurationList = 00C4F0AD190389E700CCABAE /* Build configuration list for PBXProject "SPNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00C4F0A9190389E700CCABAE;
+			productRefGroup = 00C4F0B3190389E700CCABAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00C4F0B1190389E700CCABAE /* SPNavigationController */,
+				00C4F0CC190389E700CCABAE /* SPNavigationControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00C4F0B0190389E700CCABAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C4F0EF19038AA600CCABAE /* SPNavigationController.xib in Resources */,
+				00C4F0C0190389E700CCABAE /* InfoPlist.strings in Resources */,
+				00C4F0C8190389E700CCABAE /* Images.xcassets in Resources */,
+				00C4F0F919038E3F00CCABAE /* SPInitialViewController.xib in Resources */,
+				00C4F0FB1903910C00CCABAE /* SPChildViewController.xib in Resources */,
+				00C4F0F019038AA600CCABAE /* SPNavigationController~ipad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C4F0CB190389E700CCABAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C4F0D9190389E700CCABAE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00C4F0AE190389E700CCABAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C4F0F819038E3F00CCABAE /* SPInitialViewController.m in Sources */,
+				00C4F0F419038D7800CCABAE /* SPChildViewController.m in Sources */,
+				00C4F0F119038AA600CCABAE /* UIViewController+SPUIViewController.m in Sources */,
+				00C4F0C2190389E700CCABAE /* main.m in Sources */,
+				00C4F0EE19038AA600CCABAE /* SPNavigationController.m in Sources */,
+				00C4F0C6190389E700CCABAE /* SPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C4F0C9190389E700CCABAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C4F0DB190389E700CCABAE /* SPNavigationControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00C4F0D3190389E700CCABAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00C4F0B1190389E700CCABAE /* SPNavigationController */;
+			targetProxy = 00C4F0D2190389E700CCABAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00C4F0BE190389E700CCABAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C4F0BF190389E700CCABAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00C4F0D7190389E700CCABAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C4F0D8190389E700CCABAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00C4F0DC190389E700CCABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00C4F0DD190389E700CCABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00C4F0DF190389E700CCABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPNavigationController/SPNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "SPNavigationController/SPNavigationController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00C4F0E0190389E700CCABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPNavigationController/SPNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "SPNavigationController/SPNavigationController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		00C4F0E2190389E700CCABAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SPNavigationController.app/SPNavigationController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPNavigationController/SPNavigationController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SPNavigationControllerTests/SPNavigationControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		00C4F0E3190389E700CCABAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SPNavigationController.app/SPNavigationController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SPNavigationController/SPNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "SPNavigationControllerTests/SPNavigationControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00C4F0AD190389E700CCABAE /* Build configuration list for PBXProject "SPNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C4F0DC190389E700CCABAE /* Debug */,
+				00C4F0DD190389E700CCABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00C4F0DE190389E700CCABAE /* Build configuration list for PBXNativeTarget "SPNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C4F0DF190389E700CCABAE /* Debug */,
+				00C4F0E0190389E700CCABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00C4F0E1190389E700CCABAE /* Build configuration list for PBXNativeTarget "SPNavigationControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C4F0E2190389E700CCABAE /* Debug */,
+				00C4F0E3190389E700CCABAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00C4F0AA190389E700CCABAE /* Project object */;
+}
