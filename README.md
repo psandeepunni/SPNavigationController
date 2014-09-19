@@ -3,6 +3,9 @@ SPNavigationController - UINavigationController With Custom Transitions
 
 This is a UINavigationController that allows for all custom slide animations, not just the usual slide from right to left. Easy to plugin to an iOS Project, and you will have access to a navigation controller structure, fully customisable navigation view. Implemented using a containment controller.
 
+![alt tag](https://raw.githubusercontent.com/psandeepunni/SPNavigationController/master/SPNavigationController/animated.gif)
+
+
 ##Contents
 
 * [Getting Started] (#Getting-Started)
